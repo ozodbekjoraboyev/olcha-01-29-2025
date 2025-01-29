@@ -3,8 +3,7 @@ import React, { useEffect, useState } from "react";
 import ShoppingCart02Icon from "../ikonkalar/Soping";
 import sertsa1 from "../../assets/sertsa1.svg";
 import sertsa2 from "../../assets/sertsa2.svg";
-import Bars from "../ikonkalar/Bars";
-import Analytics03Icon from "../ikonkalar/analy";
+import Analytics03Icon from "../ikonkalar/Analy";
 import { Link } from "react-router-dom";
 
 function Cardlar() {
