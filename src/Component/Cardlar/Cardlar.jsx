@@ -3,7 +3,6 @@ import React, { useEffect, useState } from "react";
 import ShoppingCart02Icon from "../ikonkalar/Soping";
 import sertsa1 from "../../assets/sertsa1.svg";
 import sertsa2 from "../../assets/sertsa2.svg";
-import Analytics03Icon from "../ikonkalar/analy";
 import { Link } from "react-router-dom";
 
 function Cardlar() {
@@ -52,7 +51,6 @@ console.log(cards);
             alt="Heart Icon"
           />
           <div className="absolute ml-52 mt-15">
-            <Analytics03Icon />
           </div>
           <Link to={`/adenicard/${item.alias}`}>
             <div className="p-3 rounded-xl h-[400px]">
